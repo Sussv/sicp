@@ -1,0 +1,23 @@
+{
+    "name": "SQL",
+    "endpoint": "hw10",
+    "src": [
+        "hw10.sql"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "size_of_dogs",
+        "by_parent_height",
+        "sentences",
+        "midterm_almighty",
+        "midterm_distribution"
+    ],
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "github.copilot.enable": {
+        "*": false
+    },
+    "files.autoSave": "afterDelay", // or "off", "onFocusChange", "onWindowChange"
+    "files.autoSaveDelay": 1000     // delay in milliseconds when "files.autoSave": "afterDelay"
+}

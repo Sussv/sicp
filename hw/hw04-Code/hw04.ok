@@ -1,0 +1,31 @@
+{
+    "name": "Data Abstraction",
+    "endpoint": "hw04",
+    "src": [
+        "hw04.py"
+    ],
+    "tests": {
+        "hw04.py:fn_empty": "doctest",
+        "hw04.py:fn_remap": "doctest",
+        "hw04.py:fn_domain": "doctest",
+        "hw04.py:fn_call": "doctest",
+        "hw04.py:fn_ext": "doctest",
+        "hw04.py:fn_compose": "doctest",
+        "hw04.py:fn_inverse": "doctest",
+        "hw04.py:add_trees": "doctest",
+        "hw04.py:bigpath": "doctest",
+        "hw04.py:bigger_path": "doctest",
+        "hw04.py:has_path": "doctest",
+        "hw04.py:count_leaves": "doctest",
+        "hw04.py:label_sum": "doctest",
+        "hw04.py:preorder": "doctest",
+        "hw04.py:has_path_fold": "doctest",
+        "tests/tree.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

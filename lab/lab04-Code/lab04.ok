@@ -1,0 +1,28 @@
+{
+  "name": "Data Abstraction",
+  "endpoint": "lab04",
+  "src": [
+    "lab04.py"
+  ],
+  "tests": {
+    "tests/q1.py": "ok_test",
+    "lab04.py:pair": "doctest",
+    "lab04.py:change_fst": "doctest",
+    "lab04.py:change_snd": "doctest",
+    "lab04.py:distance": "doctest",
+    "lab04.py:closer_city": "doctest",
+    "lab04.py:deep": "doctest",
+    "lab04.py:my_reverse": "doctest",
+    "lab04.py:my_split": "doctest",
+    "lab04.py:preorder": "doctest",
+    "lab04.py:is_binary": "doctest",
+    "lab04.py:sprout_leaves": "doctest",
+    "lab04.py:insert_items": "doctest"
+  },
+  "protocols": [
+    "file_contents",
+    "analytics",
+    "grading",
+    "backup"
+  ]
+}

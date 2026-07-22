@@ -1,0 +1,24 @@
+{
+  "name": "Macro",
+  "endpoint": "hw09",
+  "src": [
+    "hw09.scm"
+  ],
+  "tests": {
+    "tests/*.py": "ok_test"
+  },
+  "default_tests": [
+    "find",
+    "find-nest",
+    "k-curry",
+    "let",
+    "infix"
+  ],
+  "protocols": [
+    "file_contents",
+    "grading",
+    "unlock",
+    "analytics",
+    "backup"
+  ]
+}

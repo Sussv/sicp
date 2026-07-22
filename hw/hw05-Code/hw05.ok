@@ -1,0 +1,25 @@
+{
+    "name": "Nonlocal, Iterators, and Generators",
+    "endpoint": "hw05",
+    "src": [
+        "hw05.py"
+    ],
+    "tests": {
+        "hw05.py:make_withdraw": "doctest",
+        "hw05.py:make_joint": "doctest",
+        "hw05.py:distribute_parfait": "doctest",
+        "hw05.py:lookups": "doctest",
+        "hw05.py:pairs": "doctest",
+        "hw05.py:two_sum_list": "doctest",        
+        "hw05.py:remainders_generator": "doctest",
+        "hw05.py:starting_from": "doctest",
+        "hw05.py:sieve": "doctest",
+        "hw05.py:primes": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

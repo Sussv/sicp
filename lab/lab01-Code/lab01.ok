@@ -1,0 +1,21 @@
+{
+    "name": "Functions and Control",
+    "endpoint": "lab01",
+    "src": [
+        "lab01.py"
+    ],
+    "tests": {
+        "tests/q1.py": "ok_test",
+        "tests/q2.py": "ok_test",
+        "tests/q3.py": "ok_test",
+        "lab01.py:factorial": "doctest",
+        "lab01.py:is_right_triangle": "doctest",
+        "lab01.py:number_of_k": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

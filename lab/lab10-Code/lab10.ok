@@ -1,0 +1,26 @@
+{
+    "name": "SQL",
+    "endpoint": "lab10",
+    "src": [
+        "lab10.sql"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "bluedog",
+        "smallest_int_having",
+        "matchmaker",
+        "sevens",
+        "avg_difference",
+        "correlation"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Scheme",
+  "endpoint": "hw08",
+  "src": [
+    "hw08.scm"
+  ],
+  "tests": {
+    "tests/*.py": "ok_test"
+  },
+  "default_tests": [
+    "quick-pow",
+    "quicker-pow",
+    "find",
+    "make-change",
+    "enumerate",
+    "substitute",
+    "tree",
+    "label-sum",
+    "derive-sum",
+    "derive-product",
+    "make-exp",
+    "derive-exp"
+  ],
+  "protocols": [
+    "file_contents",
+    "grading",
+    "unlock",
+    "analytics",
+    "backup"
+  ]
+}

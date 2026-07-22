@@ -1,0 +1,44 @@
+{
+    "name": "OOP and Inheritance",
+    "endpoint": "hw06",
+    "src": [
+        "hw06.py"
+    ],
+    "tests": {
+        "hw06.py:Semiring.ntimes": "doctest",
+        "hw06.py:Semiring.power": "doctest",
+        "hw06.py:subst_poly": "doctest",
+        "hw06.py:Matrix.add": "doctest",
+        "hw06.py:Matrix.mult": "doctest",
+        "hw06.py:Matrix.negative": "doctest",
+        "hw06.py:Matrix.zero": "doctest",
+        "hw06.py:Matrix.one": "doctest",
+        "hw06.py:Polynomial.add": "doctest",
+        "hw06.py:Polynomial.mult": "doctest",
+        "hw06.py:Polynomial.negative": "doctest",
+        "hw06.py:Polynomial.zero": "doctest",
+        "hw06.py:Polynomial.one": "doctest",
+        "hw06.py:Integer.__init__": "doctest",
+        "hw06.py:Buff.decrease_duration": "doctest",
+        "hw06.py:Weapon.__init__": "doctest",
+        "hw06.py:Armor.__init__": "doctest",
+        "hw06.py:Character.get_attack": "doctest",
+        "hw06.py:Character.get_defense": "doctest",
+        "hw06.py:Character.take_damage": "doctest",
+        "hw06.py:Character.heal": "doctest",
+        "hw06.py:Character.update_buffs": "doctest",
+        "hw06.py:Character.magic_attack": "doctest",
+        "hw06.py:Player.get_attack": "doctest",
+        "hw06.py:Player.get_defense": "doctest",
+        "hw06.py:Player.spend_gold": "doctest",
+        "hw06.py:Player.use_potion": "doctest",
+        "hw06.py:Player.add_experience": "doctest",
+        "hw06.py:Boss.choose_action": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}

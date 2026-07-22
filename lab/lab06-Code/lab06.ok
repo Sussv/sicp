@@ -1,0 +1,22 @@
+{
+  "name": "OOP and Inheritance",
+  "endpoint": "lab06",
+  "src": [
+    "lab06.py"
+  ],
+  "tests": {
+    "tests/q1.py": "ok_test",
+    "tests/q2.py": "ok_test",
+    "lab06.py:VendingMachine": "doctest",
+    "lab06.py:Pet": "doctest",
+    "lab06.py:Cat": "doctest",
+    "lab06.py:NoisyCat": "doctest",
+    "lab06.py:pretty_print": "doctest"
+  },
+  "protocols": [
+    "file_contents",
+    "analytics",
+    "grading",
+    "backup"
+  ]
+}
