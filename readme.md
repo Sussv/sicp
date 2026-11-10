@@ -1,14 +1,19 @@
-# Structure and Interpretation of Computer Programs
+# 计算机程序的构造和解释 SICP
 
-南京大学2025 Fall SICP课程，网址https://sicp.pascal-lab.net/
+> Structure and Interpretation of Computer Programs
 
-改编自UC Berkeley的CS61A课程，包含所有hw,lab,proj以及部分往年卷片段
+## 📚 课程信息
 
-注意，代码会有查重。禁止直接用此代码提交或大段抄袭，仅供参考！
+- 南京大学2025 Fall SICP，主页[https://sicp.pascal‑lab.net/](https://sicp.pascal-lab.net/)
+- 改编自UCBerkeley CS61A
 
+## 📦 仓库内容
 
+- ✅ 课后作业 `hw`
+- ✅ 实验练习 `lab`
+- ✅ 大项目 `proj`
+- ✅ 部分往年试卷片段
 
+## ⚠️ 重要声明（请务必阅读）
 
-
-
-
+> 课程开启代码查重机制。**严禁直接复制本仓库代码进行提交，也禁止大段抄袭**。 所有代码文件仅用作思路参考、学习调试，请勿直接当作作业答案。
